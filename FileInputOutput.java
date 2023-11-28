@@ -13,7 +13,7 @@ public class FileHandling {
             }
             input.close();
             output.close();
-            System.out.println("File content copied successfully!");
+            System.out.println("File content copied successfully");
         }
         catch (FileNotFoundException e) {
             System.out.println("File not found: " + e.getMessage());
