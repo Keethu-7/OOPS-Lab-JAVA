@@ -18,6 +18,5 @@ public class FileHandling {
         catch (FileNotFoundException e) {
             System.out.println("File not found: " + e.getMessage());
         }
- 
     }
 }
