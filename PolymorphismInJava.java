@@ -22,9 +22,9 @@ class Hexagon extends Shape {
 
 public class Main {
     public static void main(String args[]) {
-        Rectangle rect = new Rectangle();
-        Triangle tri = new Triangle();
-        Hexagon hex = new Hexagon();
+        Shape rect = new Rectangle();
+        Shape tri = new Triangle();
+        Shape hex = new Hexagon();
         rect.numberOfSides();
         tri.numberOfSides();
         hex.numberOfSides();
