@@ -19,7 +19,7 @@ class Officer extends Employee {
         System.out.print("Enter age: ");
         Age= sc.nextInt();
         System.out.print("Enter phone number: ");
-        PhnNo= sc.nextInt();
+        PhnNo= sc.next();
         sc.nextLine();
         System.out.print("Enter address: ");
         Address= sc.nextLine();
@@ -42,7 +42,7 @@ class Manager extends Employee {
         System.out.print("Enter age: ");
         Age= sc.nextInt();
         System.out.print("Enter phone number: ");
-        PhnNo= sc.nextInt();
+        PhnNo= sc.next();
         sc.nextLine();
         System.out.print("Enter address: ");
         Address= sc.nextLine();
