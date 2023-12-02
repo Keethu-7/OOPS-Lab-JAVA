@@ -4,7 +4,7 @@ class Main{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter string: ");
-        String txt=sc.next();
+        String txt=sc.nextLine();
         int n=txt.length();
         int count=0;
         System.out.print("Enter character: ");
@@ -14,6 +14,6 @@ class Main{
                 count++;
             }
         }
-        System.out.println("Frequency of "+c+" in "+txt+" is: "+count);
+        System.out.println("Frequency of "+c+" in string "+txt+" is: "+count);
     }
 }
