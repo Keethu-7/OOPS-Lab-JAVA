@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Node {
     int data;
     Node prev;
@@ -10,7 +12,7 @@ class Node {
     }
 }
 
-class DoublyLinkedList {
+class DoublyList {
     Node head;
 
     // Insert at the end
@@ -63,9 +65,10 @@ class DoublyLinkedList {
     }
 }
 
-public class Main {
+public class DoubleList {
     public static void main(String[] args) {
-        DoublyLinkedList list = new DoublyLinkedList();
+        DoublyList list = new DoublyList();
+        Scanner sc = new Scanner(System.in);
 
         list.insert(1);
         list.insert(2);
@@ -73,8 +76,10 @@ public class Main {
         list.insert(4);
 
         list.display(); // Display the original list
-
-        list.delete(2); // Delete element with value 2
+        
+	System.out.print("Enter key to delete: ");
+	int del=sc.nextInt();
+        list.delete(del); // Delete element with value 2
         list.display(); // Display the list after deletion
-    }
+    };
 }
